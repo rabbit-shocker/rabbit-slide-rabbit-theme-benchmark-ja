@@ -38,7 +38,7 @@ if presentation_date
     version = parsed_presentation_date.strftime("%Y.%m.%d")
   end
 end
-version ||= "1.0.0"
+version ||= "1.0.1"
 
 name = config["name"]
 email = config["email"]
