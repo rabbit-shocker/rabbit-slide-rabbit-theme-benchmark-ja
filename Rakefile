@@ -1,6 +1,6 @@
 # Copyright (C) 2012  Kouhei Sutou <kou@cozmixng.org>
 #
-# License: GPLv3+, GFDL or CC BY-SA 3.0
+# License: GPLv3+, GFDL and/or CC BY-SA 3.0
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
