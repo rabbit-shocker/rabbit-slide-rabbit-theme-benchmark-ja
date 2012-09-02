@@ -3,7 +3,6 @@ id: theme-benchmark-ja
 tags:
 - rabbit
 base_name: theme-benchmark
-name: Rabbit
 presentation_date: 
 version: 1.0.3
 licenses:
