@@ -5,7 +5,15 @@ tags:
 base_name: theme-benchmark
 name: Rabbit
 presentation_date: 
-email: lavie@rabbit-shockers.org
-rubygems_user: rabbit
-slideshare_user: 
-speaker_deck_user: 
+version: 1.0.2
+licenses:
+- GPLv3+
+- GFDL
+- CC BY-SA 3.0
+author:
+  markup_language: :rd
+  name: Rabbit
+  email: lavie@rabbit-shockers.org
+  rubygems_user: rabbit
+  slideshare_user: 
+  speaker_deck_user: 
