@@ -17,5 +17,17 @@
 
 require "rabbit/task/slide"
 
+spec = nil
 Rabbit::Task::Slide.new do |task|
+  spec = task.spec
+end
+
+desc "Tag #{spec.version}"
+task :tag do
+  sh("git", "tag", "-a", "-m", "#{spec.version} released!!!", spec.version.to_s)
+end
+
+desc "Release #{spec.version}"
+task :release => [:publish, :tag] do
+  sh("git", "push", "--tags")
 end
