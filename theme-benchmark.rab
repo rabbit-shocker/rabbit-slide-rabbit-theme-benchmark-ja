@@ -105,6 +105,14 @@
   引用中の箇条書き
     * レベル1
 
+= 引用: アバター付き
+
+  # blockquote
+  # avatar = lavie.png
+
+  Rabbitはプログラマ向け（主にRubyist向け）のプレゼンテーションツール
+  です。
+
 = 表
 
   # RT
